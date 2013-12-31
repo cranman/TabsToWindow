@@ -1,0 +1,20 @@
+{
+    "name": "TabsToWindow",
+    "description": "Move highlighted tabs into a new window using the keyboard.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "scripts": ["tabsToWindow.js"]
+    },
+    "commands": {
+        "tabsToWindow": {
+            "suggested_key": {
+                "default": "Ctrl+Down"
+            },
+            "description": "Keyboard shortcut to move highlighted tabs into a new window"
+        }
+    }
+}
